@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-ATI_PATH = r"C:\NinjaTrader 8\bin\ATI\NewOrder.txt"
+ATI_PATH = ATI_PATH = r"C:\Users\yaniv669\Documents\NinjaTrader 8\incoming\order.txt"
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
