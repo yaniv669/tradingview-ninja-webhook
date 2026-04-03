@@ -13,7 +13,7 @@ def webhook():
 
     action = data.get("action", "").upper()
     quantity = data.get("quantity", 1)
-    symbol = data.get("symbol", "NQ 03-25")
+    symbol = data.get("symbol", "NQ 06-26")
     account = data.get("account", "Sim101")
 
     order = f"PLACE;account={account};instrument={symbol};action={action};qty={quantity};orderType=MARKET\n"
